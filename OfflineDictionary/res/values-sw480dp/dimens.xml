@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- SW-480dp -->
+    <dimen name="text_size">27sp</dimen>
+    <dimen name="tab_underline">5.4dp</dimen>
+    <dimen name="tab_padding">16.2dp</dimen>
+    <dimen name="search_item_padding">7dp</dimen>
+    <dimen name="home_underline">2dp</dimen>
+    <dimen name="button_dimension">90dp</dimen>
+    <dimen name="button_dimension_small">67.5dp</dimen>
+    <dimen name="button_dimension_small_padding">13.5dp</dimen>
+    <dimen name="divider_height_1">2dp</dimen>
+    <dimen name="divider_height_2">1dp</dimen>
+
+</resources>

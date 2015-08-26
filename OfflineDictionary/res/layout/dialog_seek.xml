@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/tab_padding"
+    tools:context="com.invincible.offlinedictionary.view.MainActivity" >
+
+    <SeekBar
+        android:id="@+id/dialog_seek_seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="150" />
+
+    <TextView
+        android:id="@+id/dialog_seek_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/action_bar_back"
+        android:textSize="@dimen/text_size" />
+
+</LinearLayout>

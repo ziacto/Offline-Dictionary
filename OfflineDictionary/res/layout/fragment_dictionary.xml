@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.invincible.offlinedictionary.view.MainActivity" >
+
+    <WebView
+        android:id="@+id/fragment_dictionary_webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/web_view_background" />
+
+    <ListView
+        android:id="@+id/fragment_dictionary_listView_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/action_bar_back"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@android:color/white"
+        android:dividerHeight="@dimen/home_underline"
+        android:fadingEdge="none"
+        android:listSelector="@android:color/transparent"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal" >
+
+        <com.invincible.offlinedictionary.view.CircleImageView
+            android:id="@+id/fragment_dictionary_imageView_favourite"
+            android:layout_width="@dimen/button_dimension"
+            android:layout_height="@dimen/button_dimension"
+            android:src="@drawable/icon_fav_yes" />
+
+        <com.invincible.offlinedictionary.view.CircleImageView
+            android:id="@+id/fragment_dictionary_imageView_share"
+            android:layout_width="@dimen/button_dimension"
+            android:layout_height="@dimen/button_dimension"
+            android:src="@drawable/selector_share" />
+
+        <com.invincible.offlinedictionary.view.CircleImageView
+            android:id="@+id/fragment_dictionary_imageView_sound"
+            android:layout_width="@dimen/button_dimension"
+            android:layout_height="@dimen/button_dimension"
+            android:src="@drawable/selector_sound_enable" />
+
+        <com.invincible.offlinedictionary.view.CircleImageView
+            android:id="@+id/fragment_dictionary_imageView_plus"
+            android:layout_width="@dimen/button_dimension"
+            android:layout_height="@dimen/button_dimension"
+            android:src="@drawable/selector_plus" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/fragment_dictionary_imageView_left_arrow"
+        android:layout_width="@dimen/button_dimension_small"
+        android:layout_height="@dimen/button_dimension_small"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/button_dimension_small_padding"
+        android:scaleType="fitCenter"
+        android:src="@drawable/selector_left_arrow" />
+
+    <ImageView
+        android:id="@+id/fragment_dictionary_imageView_right_arrow"
+        android:layout_width="@dimen/button_dimension_small"
+        android:layout_height="@dimen/button_dimension_small"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/button_dimension_small_padding"
+        android:scaleType="fitCenter"
+        android:src="@drawable/selector_right_arrow" />
+
+</RelativeLayout>

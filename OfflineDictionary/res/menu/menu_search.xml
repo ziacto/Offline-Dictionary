@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_voice_detector"
+        android:icon="@drawable/selector_mic_enable"
+        android:showAsAction="always"
+        android:title="@string/action_voice_detector"/>
+    <item
+        android:id="@+id/menu_search_searchView"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/selector_search"
+        android:showAsAction="always|collapseActionView"
+        android:title="@string/action_search"/>
+
+</menu>

@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.invincible.offlinedictionary.view.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/action_bar_back"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/clip_view_imageView_appIcon"
+            android:layout_width="@dimen/button_dimension_small"
+            android:layout_height="@dimen/button_dimension_small"
+            android:padding="@dimen/tab_underline"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/clip_view_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size" />
+
+        <com.invincible.offlinedictionary.view.CircleImageView
+            android:id="@+id/clip_view_imageView_fav"
+            android:layout_width="@dimen/button_dimension_small"
+            android:layout_height="@dimen/button_dimension_small"
+            android:src="@drawable/icon_fav_no" />
+
+        <com.invincible.offlinedictionary.view.CircleImageView
+            android:id="@+id/clip_view_imageView_exit"
+            android:layout_width="@dimen/button_dimension_small"
+            android:layout_height="@dimen/button_dimension_small"
+            android:src="@drawable/selector_search_cross" />
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/clip_view_webView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/web_view_background" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/web_view_background"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/tab_padding"
+    android:paddingRight="@dimen/tab_padding"
+    tools:context="com.invincible.offlinedictionary.view.MainActivity" >
+
+    <TextView
+        android:id="@+id/fragment_wordlist_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/search_item_padding"
+        android:textColor="@color/action_bar_back"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/fragment_wordlist_listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/action_bar_back"
+        android:dividerHeight="@dimen/home_underline"
+        android:listSelector="@android:color/transparent" />
+
+</LinearLayout>

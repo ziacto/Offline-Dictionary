@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    tools:context="com.invincible.offlinedictionary.view.MainActivity" >
+
+    <TextView
+        android:id="@+id/list_item_textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:paddingBottom="@dimen/search_item_padding"
+        android:paddingTop="@dimen/search_item_padding"
+        android:text="@string/app_name"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_size" />
+
+    <RelativeLayout
+        android:id="@+id/list_item_layout_checkbox"
+        android:layout_width="@dimen/button_dimension_small"
+        android:layout_height="@dimen/button_dimension_small"
+        android:gravity="center" >
+
+        <CheckBox
+            android:id="@+id/list_item_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- SW-720dp -->
+    <dimen name="text_size">45sp</dimen>
+    <dimen name="tab_underline">13.5dp</dimen>
+    <dimen name="tab_padding">40.5dp</dimen>
+    <dimen name="search_item_padding">13dp</dimen>
+    <dimen name="home_underline">3dp</dimen>
+    <dimen name="button_dimension">150dp</dimen>
+    <dimen name="button_dimension_small">120dp</dimen>
+    <dimen name="button_dimension_small_padding">22.5dp</dimen>
+    <dimen name="divider_height_1">4dp</dimen>
+    <dimen name="divider_height_2">2dp</dimen>
+
+</resources>

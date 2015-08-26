@@ -1,0 +1,148 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/web_view_background"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/sliding_menu_textView_favourite"
+            style="@style/sliding_menu_textview_headding_width_match_parent"
+            android:text="@string/favourite" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height_1"
+            android:background="@drawable/divider_hor" />
+
+        <TextView
+            android:id="@+id/sliding_menu_textView_history"
+            style="@style/sliding_menu_textview_headding_width_match_parent"
+            android:text="@string/history" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height_1"
+            android:background="@drawable/divider_hor" />
+
+        <TextView
+            android:id="@+id/sliding_menu_textView_history_line"
+            style="@style/sliding_menu_textview_headding_width_match_parent"
+            android:text="@string/history_line" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height_1"
+            android:background="@drawable/divider_hor" />
+
+        <TextView
+            android:id="@+id/sliding_menu_textView_font_size"
+            style="@style/sliding_menu_textview_headding_width_match_parent"
+            android:text="@string/font_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height_1"
+            android:background="@drawable/divider_hor" />
+
+        <TextView
+            android:id="@+id/sliding_menu_textView_custom_view"
+            style="@style/sliding_menu_textview_headding_width_match_parent"
+            android:text="@string/custom_view" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height_1"
+            android:background="@drawable/divider_hor" />
+
+        <TextView
+            android:id="@+id/sliding_menu_textView_back_key"
+            style="@style/sliding_menu_textview_headding_width_match_parent"
+            android:text="@string/back_key" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height_1"
+            android:background="@drawable/divider_hor" />
+        
+              <TextView
+            android:id="@+id/sliding_menu_textView_speaker"
+            style="@style/sliding_menu_textview_headding_width_match_parent"
+            android:text="@string/speaker" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height_1"
+            android:background="@drawable/divider_hor" />
+
+        <LinearLayout
+            android:id="@+id/sliding_menu_layout_word_snitcher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/sliding_menu_checkBox_word_snitcher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:clickable="false"
+                android:focusable="false" />
+
+            <TextView
+                style="@style/sliding_menu_textview_headding_width_match_parent"
+                android:text="@string/word_snitcher" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height_1"
+            android:background="@drawable/divider_hor" />
+
+        <TextView
+            android:id="@+id/sliding_menu_textView_rate_us"
+            style="@style/sliding_menu_textview_headding_width_match_parent"
+            android:text="@string/rate_us" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height_1"
+            android:background="@drawable/divider_hor" />
+
+        <TextView
+            android:id="@+id/sliding_menu_textView_share_app"
+            style="@style/sliding_menu_textview_headding_width_match_parent"
+            android:text="@string/share_app" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height_1"
+            android:background="@drawable/divider_hor" />
+
+        <TextView
+            android:id="@+id/sliding_menu_textView_more_apps"
+            style="@style/sliding_menu_textview_headding_width_match_parent"
+            android:text="@string/more_apps" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height_1"
+            android:background="@drawable/divider_hor" />
+
+        <TextView
+            android:id="@+id/sliding_menu_textView_feedback"
+            style="@style/sliding_menu_textview_headding_width_match_parent"
+            android:text="@string/feedback" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height_1"
+            android:background="@drawable/divider_hor" />
+    </LinearLayout>
+
+</ScrollView>

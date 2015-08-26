@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="headding_favourite"><U><B>FAVOURITE-WORDS</B></U></string>
+    <string name="headding_history"><U><B>HISTORY</B></U></string>
+    <string name="app_name">Offline Dictionary</string>
+    <string name="action_search">Search</string>
+    <string name="action_select_all">Select All</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_voice_detector">Voice Detector</string>
+    <string name="custom_view">Custom View</string>
+    <string name="favourite">Favourite</string>
+    <string name="history">History</string>
+    <string name="history_line">History Line</string>
+    <string name="font_size">Font Size</string>
+    <string name="back_key">Back Key</string>
+    <string name="speaker">Speaker Option</string>
+    <string name="word_snitcher">Word Snitcher</string>
+    <!-- PROMOTION -->
+    <string name="share_app">Share App</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="more_apps">More Apps</string>
+    <string name="feedback">Feedback</string>
+    <!-- DIALOG BUTTON -->
+    <string name="dialog_button_ok">Ok</string>
+    <string name="dialog_button_cancel">Cancel</string>
+    <string name="dialog_button_rate">Rate</string>
+    <string name="dialog_button_quit">Quit</string>
+    <string name="dialog_button_submit">Submit</string>
+    <string name="dialog_button_share">Share</string>
+    <!-- DIALOG TITLE -->
+    <string name="dialog_title_Speak">Speaker Option</string>
+    <string name="dialog_title_review">Review</string>
+    <string name="dialog_title_font_size">Font Size</string>
+    <string name="dialog_title_share">Share</string>
+    <string name="dialog_title_history_size">History Size</string>
+    <string name="dialog_title_back_key">Back Key</string>
+    <string name="dialog_title_word_snitcher">Word Snitcher</string>
+    <string name="dialog_messang_word_snitcher">Do you really want to stop word snitcher !!!!!</string>
+    <!-- PROMOTIONAL MESSAGES -->
+    <string name="promotion_reivew">We hope you are enjoying the app !\nPlease rate the app with good rating as we are working very hard for it. !!!</string>
+    <string name="promotion_share_dialog">Share this app with your friends, if you really like it.</string>
+    <string name="promotion_share">Guys go for \"<b>Offline Dictionary</b>\" if you want to improve your vocabulary and impress someone!!\nJust download it today from : </string>
+    <string name="promotion_publisher_name">INVINCIBLE</string>
+    <string name="promotion_publisher_subject">Offline Dictionary</string>
+    <string name="promotion_publisher_email">invincible15011988@gmail.com</string>
+
+</resources>

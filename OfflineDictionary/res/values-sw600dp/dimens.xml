@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- SW-600dp -->
+    <dimen name="text_size">36sp</dimen>
+    <dimen name="tab_underline">7dp</dimen>
+    <dimen name="tab_padding">21dp</dimen>
+    <dimen name="search_item_padding">9dp</dimen>
+    <dimen name="home_underline">2.5dp</dimen>
+    <dimen name="button_dimension">120dp</dimen>
+    <dimen name="button_dimension_small">90dp</dimen>
+    <dimen name="button_dimension_small_padding">18dp</dimen>
+    <dimen name="divider_height_1">3dp</dimen>
+    <dimen name="divider_height_2">1.5dp</dimen>
+
+</resources>

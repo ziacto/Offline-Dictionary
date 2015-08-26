@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="action_bar_back">#B20000</color>
+    <color name="web_view_background">#DBFFEE</color>
+    <color name="text_color">#470024</color>
+    <color name="divider_2">#33FFFFFF</color>
+    <color name="divider_1">#CC000000</color>
+
+</resources>

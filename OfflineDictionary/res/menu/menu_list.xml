@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_list_search_searchView"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/selector_search"
+        android:showAsAction="always|collapseActionView"
+        android:title="@string/action_search"/>
+    <item
+        android:id="@+id/menu_list_check_all"
+        android:icon="@drawable/selector_select_all"
+        android:showAsAction="always"
+        android:title="@string/action_select_all"/>
+    <item
+        android:id="@+id/menu_list_delete"
+        android:icon="@drawable/selector_delete"
+        android:showAsAction="always"
+        android:title="@string/action_delete"/>
+
+</menu>

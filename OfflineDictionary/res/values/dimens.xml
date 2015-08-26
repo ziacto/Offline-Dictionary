@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="text_size">15sp</dimen>
+    <dimen name="tab_underline">3dp</dimen>
+    <dimen name="tab_padding">9dp</dimen>
+    <dimen name="search_item_padding">3dp</dimen>
+    <dimen name="home_underline">1dp</dimen>
+    <dimen name="button_dimension">50dp</dimen>
+    <dimen name="button_dimension_small">37.5dp</dimen>
+    <dimen name="button_dimension_small_padding">7.5dp</dimen>
+    <dimen name="divider_height_1">1dp</dimen>
+    <dimen name="divider_height_2">0.5dp</dimen>
+
+</resources>
